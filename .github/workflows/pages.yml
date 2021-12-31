@@ -32,6 +32,15 @@ jobs:
           git submodule init
           git submodule update --remote
 
+      - name: Install pandoc with crossref
+        run: |
+          wget -q https://github.com/jgm/pandoc/releases/download/2.16.2/pandoc-2.16.2-linux-amd64.tar.gz
+          tar zxf pandoc-2.16.2-linux-amd64.tar.gz
+          mv pandoc-2.16.2/bin/pandoc pandoc
+          wget -q https://github.com/lierdakil/pandoc-crossref/releases/download/v0.3.12.1a/pandoc-crossref-Linux.tar.xz
+          tar xf pandoc-crossref-Linux.tar.xz
+          echo "$PWD" >> $GITHUB_PATH
+
       - name: Build
         run: npm run build
 
