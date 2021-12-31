@@ -1,7 +1,7 @@
 ---
-layout: page
-title: About
-permalink: /about/
+title: about
+layout: about
+date: 2021-02-02 12:53:23 +0800
 ---
 
 #### Who am I

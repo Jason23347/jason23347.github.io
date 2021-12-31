@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "基于Laravel的应用在服务端的部署"
+title:  基于Laravel的应用在服务端的部署
 date:   2021-02-02 16:21:14 +0800
-categories: sql coding
+tags:
+  - sql
+  - coding
+categories:
+  - 折腾
 ---
 
 >一个已经去世的应用重获新生，需要在服务端重新部署，因此就有了这篇文章。

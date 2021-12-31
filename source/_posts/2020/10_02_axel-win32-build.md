@@ -1,8 +1,11 @@
 ---
-layout: post
 title:  "How to Make an Axel Win32 Build"
 date:   2020-10-02 17:06:07 +0800
-categories: C axel
+tags:
+  - C
+  - axel
+categories:
+  - 折腾
 ---
 
 >This page is for those who want to use Axel on windows. I  was on progress with the win32 build of Axel some months ago. But now it is stalled, as I am busy. Anyway, this article ought to be useful for those who want to make a latest build even in the future.

@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "记一次GMAIL无法提醒邮件信息的排查"
-date:   2020-04-10 19:59:23 +0800
-categories: fetchmail shell cron coding
+date:   2020-04-10 19:59:23
+tags:
+  - shell
+  - fetchmail
+  - cron
+categories:
+  - 折腾
 ---
 
 >最近发现手机上GMAIL总是不提醒新的邮件，并且消息都变成了已读。这使得我总是收不到来自github和gitlab的消息通知。这个问题很早就出现过了，最近出现得十分频繁，今天我把它解决了。
