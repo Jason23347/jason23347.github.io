@@ -92,6 +92,7 @@ sudo service apache2 restart
 ### 配置MySQL
 
 #### 生成管理员用户
+
 为了让PHP访问数据库，我们需要生成一个MySQL用户。
 MySQL初始只允许root免密登录。
 这是不安全的，而且Laravel应用无法使用这个账户。
