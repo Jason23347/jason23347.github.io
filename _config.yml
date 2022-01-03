@@ -30,6 +30,10 @@ plugins:
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-aircloud
 
+# Theme settings
+post_style:
+  indent: 0
+
 # Custom Setting End
 # Directory
 source_dir: source
@@ -42,7 +46,7 @@ i18n_dir: :lang
 skip_render:
 
 # Category & Tag
-default_category: uncategorized
+default_category: 折腾
 category_map:
 tag_map:
 
