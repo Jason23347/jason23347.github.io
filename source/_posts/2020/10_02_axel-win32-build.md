@@ -18,6 +18,7 @@ For example, on Ubuntu:
 ```shell
 sudo apt install mingw-w64
 ```
+
 #### Download and compile OpenSSL against MinGW
 
 [Reference](https://marc.xn--wckerlin-0za.ch/computer/cross-compile-openssl-for-windows-on-linux)
