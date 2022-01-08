@@ -13,7 +13,7 @@ auto_spacing: true
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: https://jason23347.github.io
 root: /
-permalink: :year/:month-:day-:title/
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -27,8 +27,18 @@ github_username: Jason23347
 ## Plugins: https://hexo.io/plugins/
 plugins:
   hexo-generator-feed
+
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-aircloud
+
+# Writing
+new_post_name: :year/:month_:day_:title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
 
 # Theme settings
 post_style:
