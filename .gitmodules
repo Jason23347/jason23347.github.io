@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-aircloud"]
+	path = themes/hexo-theme-aircloud
+	url = https://github.com/jason23347/hexo-theme-aircloud
